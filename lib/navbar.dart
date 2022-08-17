@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:btmnavbar/home.dart';
 import 'package:btmnavbar/profile.dart';
 import 'package:btmnavbar/searchscreen.dart';
@@ -16,9 +18,9 @@ class _NavBarState extends State<NavBar> {
   int pressCount = 0;
   int _btmNavBarIndex = 0;
   var flIcon = Icons.dark_mode;
-  var hereColor = Colors.white;
+  var hereColor = Colors.black;
   var themData = ThemeData.light();
-  var btmColor = Color.fromARGB(255, 117, 106, 106);
+  var btmColor = Color.fromARGB(255, 241, 241, 241);
   List itemList = [
     Icons.home,
     Icons.home,
@@ -78,13 +80,18 @@ class _NavBarState extends State<NavBar> {
         ),
         bottomNavigationBar: AnimatedBottomNavigationBar(
             hideAnimationCurve: Curves.bounceInOut,
+            splashSpeedInMilliseconds: 250,
+            splashRadius: 30,
+            leftCornerRadius: 10,
+            rightCornerRadius: 10,
             splashColor: Colors.orange,
             activeColor: Colors.red,
             inactiveColor: hereColor,
             backgroundColor: btmColor,
+            // backgroundGradient: Gradient(colors: [Colors.red,Colors.orange,],stops: [10,20],transform: gradi),
             gapLocation: GapLocation.center,
             notchMargin: 10,
-            notchSmoothness: NotchSmoothness.verySmoothEdge,
+            notchSmoothness: NotchSmoothness.softEdge,
             icons: [
               Icons.home,
               Icons.search,

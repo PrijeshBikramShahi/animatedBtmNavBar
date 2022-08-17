@@ -1,3 +1,4 @@
+import 'package:btmnavbar/login.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -13,8 +14,20 @@ class _ProfTabState extends State<ProfTab> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text("profile tab"),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Row(children: [
+            Text("profile tab"),
+          ]),
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => LoginUI()));
+            },
+            child: Text("Logout"),
+          )
+        ],
       ),
     );
   }

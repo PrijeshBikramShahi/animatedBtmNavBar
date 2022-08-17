@@ -1,3 +1,5 @@
+import 'package:btmnavbar/login.dart';
+import 'package:btmnavbar/signup.dart';
 import 'package:btmnavbar/navbar.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: NavBar(),
+      home: SignUpUI(),
     );
   }
 }

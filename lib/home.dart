@@ -14,10 +14,29 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Colors.white,
-      body: Center(
-        child: Text("hoem1"),
-      ),
-    );
+        // backgroundColor: Colors.white,
+
+        // body: Padding(
+        //   padding: const EdgeInsets.only(top: 70),
+        //   child: Column(
+        //     children: [
+        //       TextField(
+        //         decoration: InputDecoration(
+        //             icon: Icon(Icons.add),
+        //             suffixIcon: Icon(Icons.send),
+        //             hintText: "enter the name",
+        //             border: InputBorder.none),
+        //       ),
+        //       TextField(
+        //         decoration: InputDecoration(
+        //             icon: Icon(Icons.add),
+        //             suffixIcon: Icon(Icons.send),
+        //             hintText: "enter the name",
+        //             border: InputBorder.none),
+        //       ),
+        //     ],
+        //   ),
+        // ),
+        );
   }
 }
