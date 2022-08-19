@@ -1,6 +1,5 @@
-import 'package:btmnavbar/login.dart';
-import 'package:btmnavbar/signup.dart';
-import 'package:btmnavbar/navbar.dart';
+import 'package:btmnavbar/Pre-Login/signup.dart';
+
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {

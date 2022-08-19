@@ -1,4 +1,5 @@
-import 'package:btmnavbar/signup.dart';
+import 'package:btmnavbar/Pre-Login/signup.dart';
+
 import 'package:flutter/material.dart';
 
 class PrivacyPolicy extends StatelessWidget {

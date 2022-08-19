@@ -1,7 +1,8 @@
-import 'package:btmnavbar/login.dart';
-import 'package:btmnavbar/navbar.dart';
-import 'package:btmnavbar/utils/privacy.dart';
-import 'package:btmnavbar/utils/tandc.dart';
+import 'package:btmnavbar/Pre-Login/login.dart';
+
+import 'package:btmnavbar/Post-Login/navbar.dart';
+import 'package:btmnavbar/Pre-Login/utils/privacy.dart';
+import 'package:btmnavbar/Pre-Login/utils/tandc.dart';
 import 'package:flutter/material.dart';
 
 class SignUpUI extends StatefulWidget {

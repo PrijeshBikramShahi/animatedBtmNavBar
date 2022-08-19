@@ -1,6 +1,5 @@
+import 'package:btmnavbar/Pre-Login/signup.dart';
 import 'package:flutter/material.dart';
-
-import '../signup.dart';
 
 class Password extends StatelessWidget {
   const Password({Key? key}) : super(key: key);

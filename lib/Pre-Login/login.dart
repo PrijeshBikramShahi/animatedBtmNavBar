@@ -1,10 +1,10 @@
-import 'package:btmnavbar/navbar.dart';
-import 'package:btmnavbar/signup.dart';
-import 'package:btmnavbar/utils/forgot.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:btmnavbar/Pre-Login/signup.dart';
+import 'package:btmnavbar/Post-Login/navbar.dart';
 
+import 'package:btmnavbar/Pre-Login/utils/forgot.dart';
+import 'package:flutter/material.dart';
+
+// ignore: must_be_immutable
 class LoginUI extends StatefulWidget {
   LoginUI({Key? key}) : super(key: key);
   var googleLogo =

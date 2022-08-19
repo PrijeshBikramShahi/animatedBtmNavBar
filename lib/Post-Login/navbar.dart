@@ -1,9 +1,9 @@
 import 'dart:ui';
 
-import 'package:btmnavbar/home.dart';
-import 'package:btmnavbar/profile.dart';
-import 'package:btmnavbar/searchscreen.dart';
-import 'package:btmnavbar/shop.dart';
+import 'package:btmnavbar/Post-Login/Tab-Screens/home.dart';
+import 'package:btmnavbar/Post-Login/Tab-Screens/profile.dart';
+import 'package:btmnavbar/Post-Login/Tab-Screens/searchscreen.dart';
+import 'package:btmnavbar/Post-Login/Tab-Screens/shop.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 
